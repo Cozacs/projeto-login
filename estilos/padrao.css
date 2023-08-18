@@ -25,7 +25,7 @@
 }
 
 body, html {
-    background-image: linear-gradient(var(--cor5), var(--cor1));
+    background-image: linear-gradient(to top, var(--cor5), var(--cor1));
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
