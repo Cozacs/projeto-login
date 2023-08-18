@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Cores do Projeto
+#D97925 - mais claro
+#D07B38
+#B9350F
+#A13012
+#782A04 - mais escuro
+
+*/
+
+:root {
+    --cor1: #D97925;
+    --cor2: #D07B38;
+    --cor3: #B9350F;
+    --cor4: #A13012;
+    --cor5: #782A04;
+}
+
+body {
+    background-image: linear-gradient(var(--cor5), var(--cor1));
+    background-repeat: no-repeat;
+    height: 98vh;
+    margin-top: 40px;
+}
+
+main {
+    width: 80vw;
+    height: 90vh;
+    max-width: 800px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 20px;
+}
+
+section {
+    display: inline-block;
+}
+
+div img {
+    width: 30%;
+    border-radius: 20px;
+}
+
+div#imagem {
+    display: inline-block;
+    margin: auto;
+}
+
+div#formulario {
+    
+    display: inline-block;
+}
